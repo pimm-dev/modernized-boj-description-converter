@@ -40,9 +40,11 @@ const App: React.FC = () => {
           가능합니다.
           <br />
           <Typo small>
-            <a href={`javascript:${js}`}>
-              <code>{js}</code>
-            </a>
+            <span dangerouslySetInnerHTML={{ __html: `
+              <a href="javascript:${js}">
+                <code>${js}</code>
+              </a>
+            `}}></span>
           </Typo>
         </li>
       </ul>

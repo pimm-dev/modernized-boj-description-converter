@@ -1,4 +1,13 @@
-# boj-description-converter
+# modernized-boj-description-converter
+
+> [!NOTE]  
+> This is a dependency-updated version of [solved-ac/boj-description-converter](https://github.com/solved-ac/boj-description-converter/)
+> 
+> As of January 2025, I have resolved dependency issues inthe original repository, including removing deprecated modules. [Most problems are caused by create-react-app](https://dev.to/eslachance/stop-using-create-react-app-7in), so this repository has a dependency on vite, not a dependency created by create-react-app.
+
+> [!NOTE]  
+> When deploying this to GitHub Pages, you may have to configure the repository variable `BASE_URL=<base-url>`.  
+> For more information, [see &lt;Using the `vars` context to access configuration variable values&gt; section on &lt;Store information in variables&gt; documentation.](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#using-the-vars-context-to-access-configuration-variable-values)  
 
 [solved-ac.github.io/boj-description-converter](https://solved-ac.github.io/boj-description-converter/)
 
