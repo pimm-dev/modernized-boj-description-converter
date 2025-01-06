@@ -3,7 +3,7 @@
 > [!NOTE]  
 > This is a dependency-updated version of [solved-ac/boj-description-converter](https://github.com/solved-ac/boj-description-converter/)
 > 
-> As of January 2025, I have resolved dependency issues inthe original repository, including removing deprecated modules. [Most problems are caused by create-react-app](https://dev.to/eslachance/stop-using-create-react-app-7in), so this repository has a dependency on vite, not a dependency created by create-react-app.
+> As of January 2025, I have resolved dependency issues in the original repository, including removing deprecated modules. [Most problems are caused by create-react-app](https://dev.to/eslachance/stop-using-create-react-app-7in), so this repository has a dependency on vite, not a dependency created by create-react-app.
 
 > [!NOTE]  
 > When deploying this to GitHub Pages, you may have to configure the repository variable `BASE_URL=<base-url>`.  
