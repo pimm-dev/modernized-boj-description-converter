@@ -9,6 +9,9 @@
 > When deploying this to GitHub Pages, you may have to configure the repository variable `BASE_URL=<base-url>`.  
 > For more information, [see &lt;Using the `vars` context to access configuration variable values&gt; section on &lt;Store information in variables&gt; documentation.](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables#using-the-vars-context-to-access-configuration-variable-values)  
 
+> [!NOTE]  
+> The main branch contains an [opened pull request at upstream #2](https://github.com/solved-ac/boj-description-converter/pull/2) that has not yet been merged. The unmerged is the [`upstream`](https://github.com/ShapeLayer/modernized-boj-description-converter/tree/upstream) branch.
+
 [solved-ac.github.io/boj-description-converter](https://solved-ac.github.io/boj-description-converter/)
 
 Convert [UCPC](https://github.com/ucpcc/ucpc2020-description-layout)-flavored [olymp.sty](https://github.com/GassaFM/olymp.sty) based TeX problem statements to HTML, complying with [BOJ Stack](https://stack.acmicpc.net/guide/problem) and [UCPC](https://github.com/ucpcc/problemsetting-guidelines) formatting guidelines.
